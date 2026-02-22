@@ -108,7 +108,50 @@ section h2 {
 .project a:hover {
   text-decoration: underline;
 }
+#experience .experience-item {
+  background: #ffffff; 
+  border-left: 4px solid #4CAF50;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 
+  #blog ul { 
+    list-style: none; 
+     padding: 0;
+  }
+ 
+  #blog li {
+    margin: 8px 0; 
+  }
+#blog a {
+  color: #4CAF50; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+#blog a:hover { 
+    text-decoration: underline; 
+}
+ #achievements ul { 
+   list-style: disc;
+   padding-left: 20px; 
+}
+  #achievements li { 
+    margin: 8px 0;
+}
+  #blog-article { 
+    max-width: 800px; 
+    margin: 40px auto; 
+    background: #ffffff;
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+  #blog-article h1 {
+    color: #2e7d32; 
+    margin-bottom: 20px
+  }
+  
 #contact p {
   margin: 8px 0;
 }
